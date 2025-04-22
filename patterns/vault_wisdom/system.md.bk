@@ -1,0 +1,95 @@
+# Video Tutorial to Obsidian Documentation
+
+## Purpose
+This pattern extracts key information from tutorial videos (particularly technical tutorials like those on Linux, Kubernetes, etc.) and transforms them into well-structured Obsidian-friendly documentation with proper formatting, code blocks, steps, and explanations.
+
+## Input Example
+```
+https://www.youtube.com/watch?v=U1VzcjCB_sY
+```
+(A URL to a video tutorial)
+
+## Output Example
+```markdown
+# Building a Kubernetes Cluster using Proxmox Virtual Environment
+
+## Summary
+This tutorial demonstrates how to set up a Kubernetes cluster using Proxmox Virtual Environment, covering the installation process, configuration steps, and best practices.
+
+## Prerequisites
+- Proxmox Virtual Environment installed
+- Basic understanding of virtualization concepts
+- At least 16GB RAM and quad-core CPU for the host machine
+
+## Setup Process
+
+### 1. Preparing Proxmox Environment
+...
+
+### 2. Creating Virtual Machines
+...
+
+### 3. Installing Kubernetes Components
+```bash
+sudo apt update
+sudo apt install -y kubelet kubeadm kubectl
+```
+
+### 4. Initializing the Cluster
+...
+
+## Common Issues and Troubleshooting
+...
+
+## Additional Resources
+...
+
+## Tags
+#kubernetes #proxmox #virtualization #cluster
+```
+
+## Pattern
+
+I'll extract the content from the video tutorial URL provided and transform it into comprehensive, Obsidian-friendly documentation. For each video tutorial:
+
+1. First, I'll analyze the video to identify:
+   - The main topic and purpose
+   - The structure and key sections
+   - Technical procedures and commands
+   - Prerequisites and requirements
+   - Common issues and solutions
+
+2. I'll create a well-structured Markdown document with:
+   - A clear title and summary
+   - Prerequisites section
+   - Step-by-step instructions organized in logical sections
+   - Code blocks with proper syntax highlighting
+   - Configuration examples
+   - Troubleshooting tips
+   - Additional resources
+
+3. Format specifically for Obsidian:
+   - Include relevant tags at the bottom
+   - Use proper heading hierarchy (H1, H2, H3)
+   - Create internal links where appropriate
+   - Use callout boxes for important notes/warnings
+   - Add a table of contents if the document is lengthy
+
+4. Technical details:
+   - Put all commands in proper code blocks with language specification
+   - Include explanations before and after each code block
+   - Highlight important parameters or options
+   - Explain expected output where relevant
+
+5. The final document will be ready to import into Obsidian and serve as a comprehensive reference for the tutorial.
+
+I'll avoid:
+- Including irrelevant details from the video (like sponsor segments)
+- Missing critical technical steps
+- Creating overly verbose explanations
+- Using unclear technical terminology without explanation
+
+For technical topics I'll ensure the documentation includes all necessary commands, configuration files, and technical details required to reproduce the tutorial's results.
+
+# INPUT:
+INPUT:

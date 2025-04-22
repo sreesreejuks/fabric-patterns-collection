@@ -1,0 +1,131 @@
+# content-video-to-notes
+
+# Purpose
+This pattern extracts key insights, concepts, stories, and actionable takeaways from non-technical videos (such as motivational speeches, educational content, philosophical discussions, etc.) and transforms them into well-structured notes with proper organization and formatting.
+
+# Input Example
+```
+https://www.youtube.com/watch?v=k7Ru6BqLzZQ
+```
+(A URL to a non-technical video)
+
+# Output Example
+```markdown
+---
+title: "How to Not Die With Regrets: The Tail End - Key Insights"
+layout: post
+author: sreeju
+date: 2024-10-27 18:30:00 -+0530
+categories: [personal-development, philosophy, life-perspective]
+tags: [regrets, time-management, life-choices, mortality, relationships]
+---
+
+# Table of Contents
+- [Main Concept](#main-concept)
+- [Key Insights](#key-insights)
+- [Memorable Quotes](#memorable-quotes)
+- [Visual Metaphors & Examples](#visual-metaphors--examples)
+- [Actionable Takeaways](#actionable-takeaways)
+- [Personal Reflection Questions](#personal-reflection-questions)
+- [Related Resources](#related-resources)
+
+# Main Concept
+Tim Urban explores the concept of "The Tail End" - the realization that we have a finite number of experiences left in our lives. By visualizing our remaining time in concrete units (like weeks or activities), we gain perspective on how to prioritize what truly matters.
+
+# Key Insights
+1. **Limited Time Perspective**: Most people have already used up a significant portion of their in-person time with parents and childhood friends.
+
+2. **Relationship Quantification**: When you quantify relationship time, you realize you may have already used 90%+ of your in-person time with parents.
+
+3. **Activity Measurement**: We have a finite number of each activity left (swimming in the ocean, watching sunsets, etc.)
+
+4. **Scarcity Creates Value**: Understanding the limited nature of our experiences makes them more precious.
+
+5. **Choice Prioritization**: Every choice represents other choices not taken, emphasizing the importance of intentional decision-making.
+
+# Memorable Quotes
+> "When you're young, you take your parents for granted because it feels like they'll always be there. Looking at life in terms of winters or activities completely changes your perspective."
+
+> "Time makes us all equals - we all have a limited supply that we can't manufacture more of."
+
+> "Thinking of life in terms of summers left or special moments remaining can dramatically shift how you choose to spend your time."
+
+# Visual Metaphors & Examples
+- **Life Calendar**: Visualizing life as a grid of weeks, with many already shaded in.
+- **Parent Time**: If you're 35 and see your parents 10 days a year, you may have used 95% of your in-person parent time already.
+- **Childhood Friends**: Despite growing up together, you may have already spent 90% of your in-person time with childhood friends.
+- **Seasonal Activities**: Counting remaining seasons (like summers for swimming or winters for holidays) highlights life's finite nature.
+
+# Actionable Takeaways
+1. **Track Quality Time**: Consider creating a simple tracking system for time spent with loved ones
+2. **Prioritize Relationships**: Allocate more deliberate time to the people who matter most
+3. **Create New Traditions**: Establish regular meetups or activities with important people
+4. **Minimize Time Waste**: Reduce time spent on low-value activities that don't align with your priorities
+5. **Practice Presence**: When engaging in experiences that are limited, be fully present and attentive
+
+## Personal Reflection Questions
+1. Who are the people you want to prioritize spending more time with?
+2. What activities bring you genuine joy that you should make more time for?
+3. What current time commitments could you reduce to make space for higher-value experiences?
+4. How would your decision-making change if you visualized your remaining time in concrete units?
+5. What would your future self regret not doing more of?
+
+## Related Resources
+- Tim Urban's "Wait But Why" blog
+- Books on time management and mortality awareness
+- Tools for tracking and visualizing time spent on activities and relationships
+```
+
+# Pattern
+
+I'll extract the content from the non-technical video URL provided and transform it into comprehensive, well-structured notes. For each video:
+
+1. First, I'll analyze the video to identify:
+   - The main concept or thesis
+   - Key insights and ideas presented
+   - Memorable quotes or statements
+   - Visual metaphors, examples, and stories used
+   - Actionable advice or suggestions
+   - Underlying themes and messages
+
+2. I'll create a Jekyll-compatible Markdown document with:
+   - Front matter containing:
+     - Appropriate title based on video content
+     - layout: post
+     - author: sreeju
+     - Current date in format YYYY-MM-DD HH:MM:SS -+0530
+     - Categories derived from video content (array format)
+     - Tags derived from video content (array format)
+   - A table of contents with links to each section
+   - A clear "Main Concept" section summarizing the central thesis
+   - "Key Insights" organized as numbered points
+   - "Memorable Quotes" presented in blockquote format
+   - "Visual Metaphors & Examples" to capture illustrative content
+   - "Actionable Takeaways" as numbered, practical steps
+   - "Personal Reflection Questions" to encourage application
+   - "Related Resources" for further exploration
+
+3. Format specifically for Jekyll:
+   - Use proper heading hierarchy (H2 for main sections, H3 for subsections if needed)
+   - Create anchor links in the table of contents
+   - Use markdown formatting for emphasis, quotes, and lists
+   - Ensure spacing and formatting comply with Jekyll requirements
+
+4. Non-technical focus:
+   - Emphasize conceptual understanding over procedural details
+   - Capture emotional and philosophical aspects of the content
+   - Include questions that promote personal reflection
+   - Highlight practical applications of abstract concepts
+
+5. The final document will be ready to use with Jekyll without additional formatting.
+
+I'll avoid:
+- Focusing too much on delivery style over substance
+- Missing key philosophical or conceptual points
+- Creating overly abstract notes without practical applications
+- Failing to capture the emotional or inspirational elements of the content
+
+For non-technical content, I'll ensure the notes capture the essence, key messages, and potential applications, making the ideas accessible and actionable.
+
+# INPUT:
+      INPUT:
